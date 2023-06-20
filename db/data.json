@@ -1,1 +1,14 @@
-{"name":"kikoo","json":false}
+[
+  {
+    "title": "nissim",
+    "price": 400,
+    "id": "d6eafc6c-40e3-43db-ae48-ad0d7663d7d0",
+    "name": "nissim"
+  },
+  {
+    "title": "tintin qui code",
+    "price": 200,
+    "author": "Milou",
+    "id": "67d7d08a-5423-4c03-82de-73e93cd8f55e"
+  }
+]
