@@ -1,14 +1,121 @@
 [
   {
-    "title": "nissim",
-    "price": 400,
-    "id": "d6eafc6c-40e3-43db-ae48-ad0d7663d7d0",
-    "name": "nissim"
+    "title": "The Catcher in the Rye",
+    "price": 15.99,
+    "id": "01a537cc-b909-4d7e-aefe-01cb0f3339e5",
+    "name": "J.D. Salinger",
+    "author": "J.D. Salinger"
   },
   {
-    "title": "tintin qui code",
-    "price": 200,
-    "author": "Milou",
-    "id": "67d7d08a-5423-4c03-82de-73e93cd8f55e"
+    "title": "To Kill a Mockingbird",
+    "price": 14.85,
+    "id": "73634d2c-61a1-47d7-96a5-3dc6e9873245",
+    "name": "Harper Lee",
+    "author": "Harper Lee"
+  },
+  {
+    "title": "1984",
+    "price": 12.99,
+    "id": "8e25553b-c163-43ed-a27e-f6cc48690bc1",
+    "name": "George Orwell",
+    "author": "George Orwell"
+  },
+  {
+    "title": "Brave New World",
+    "price": 11.68,
+    "id": "4041edb9-df32-47de-ae55-ccc20f63ba2c",
+    "name": "Aldous Huxley",
+    "author": "Aldous Huxley"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "price": 9.99,
+    "id": "3cfcfe24-46dc-4d65-996b-0a9a566eb9ca",
+    "name": "Jane Austen",
+    "author": "Jane Austen"
+  },
+  {
+    "title": "To the Lighthouse",
+    "price": 8.99,
+    "id": "762ae7e9-5d55-47db-a6a6-cd5964f787aa",
+    "name": "Virginia Woolf",
+    "author": "Virginia Woolf"
+  },
+  {
+    "title": "The Great Gatsby",
+    "price": 10.51,
+    "id": "b3c2c71e-e507-48fb-9cd7-c1d05b829477",
+    "name": "F. Scott Fitzgerald",
+    "author": "F. Scott Fitzgerald"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "price": 17.5,
+    "id": "474c14dc-fa74-42de-9363-eb58a35df29e",
+    "name": "Gabriel Garcia Marquez",
+    "author": "Gabriel Garcia Marquez"
+  },
+  {
+    "title": "Dracula",
+    "price": 7.99,
+    "id": "75552bc4-ba2a-4c97-b350-18b80e86da30",
+    "name": "Bram Stoker",
+    "author": "Bram Stoker"
+  },
+  {
+    "title": "Wuthering Heights",
+    "price": 9.44,
+    "id": "6781edf0-646d-4f27-8c24-62cc087c8d01",
+    "name": "Emily Bronte",
+    "author": "Emily Bronte"
+  },
+  {
+    "title": "Lord of the Flies",
+    "price": 8.99,
+    "id": "c53cefd8-5c62-4c49-8a9b-761cd575f5e0",
+    "name": "William Golding",
+    "author": "William Golding"
+  },
+  {
+    "title": "The Color Purple",
+    "price": 12.36,
+    "id": "1cd74394-1af7-4872-a041-3e8cb66413ba",
+    "name": "Alice Walker",
+    "author": "Alice Walker"
+  },
+  {
+    "title": "Their Eyes Were Watching God",
+    "price": 11.56,
+    "id": "d7228fc0-327c-47b3-bb24-e9269636b79a",
+    "name": "Zora Neale Hurston",
+    "author": "Zora Neale Hurston"
+  },
+  {
+    "title": "Beloved",
+    "price": 14.99,
+    "id": "257f98f0-59e4-41f9-9fa2-16e016bcd259",
+    "name": "Toni Morrison",
+    "author": "Toni Morrison"
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "price": 10.72,
+    "id": "8f6e5bc2-28e8-4cff-b4b9-64c20874683e",
+    "name": "John Steinbeck",
+    "author": "John Steinbeck"
+  },
+  {
+    "title": "Gone with the Wind",
+    "price": 13.45,
+    "id": "b08b84ed-37b9-44ae-addd-dd9034175829",
+    "name": "Margaret Mitchell",
+    "author": "Margaret Mitchell"
+  },
+  {
+    "title": "Moby-Dick",
+    "price": 13.99,
+    "id": "1e0a05a6-3d7d-4c64-8f19-f9d6b52700f4",
+    "name": "Herman Melville",
+    "author": "Herman Melville"
   }
 ]

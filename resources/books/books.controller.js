@@ -4,9 +4,39 @@ const { readFile, writeFile } = require('../../utils/files');
 
 module.exports = {
   getBooks(req, res) {
+    //
     const books = readFile();
 
+    const { sortBy } = req.query;
+
+    if (sortBy) {
+      books.sort((a, b) => (a[sortBy] < b[sortBy] ? -1 : 1));
+    }
+
     res.send({ ok: true, data: books });
+  },
+
+  getBooksWithPagination(req, res) {
+    const books = readFile();
+
+    let { page, count } = req.query;
+
+    page = +page;
+    count = +count;
+
+    const startIdx = (page - 1) * count;
+    const endIdx = page * count;
+
+    const slicedBooks = books.slice(startIdx, endIdx);
+
+    res.send({
+      ok: true,
+      data: {
+        page,
+        perPage: count,
+        books: slicedBooks,
+      },
+    });
   },
 
   // API Restfull ==> /resource/id

@@ -3,7 +3,6 @@ const express = require('express');
 const books = require('./resources/books/books.router');
 
 const loggerRequest = require('./middlewares/logger-request');
-const authDelete = require('./middlewares/auth-delete');
 
 const app = express();
 

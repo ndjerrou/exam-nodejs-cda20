@@ -5,6 +5,7 @@ const {
   addBook,
   deleteOneBook,
   updateOneBook,
+  getBooksWithPagination,
 } = require('./books.controller');
 const checkPayload = require('../../middlewares/checkPayload');
 const authDelete = require('../../middlewares/auth-delete');
@@ -12,6 +13,8 @@ const authDelete = require('../../middlewares/auth-delete');
 const router = express.Router();
 
 router.route('').get(getBooks).post(checkPayload, addBook);
+
+router.route('/pages').get(getBooksWithPagination);
 
 router
   .route('/:id')
