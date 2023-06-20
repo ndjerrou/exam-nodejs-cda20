@@ -1,6 +1,16 @@
 const express = require('express');
 const loggerRequest = require('./middlewares/logger-request');
 const authDelete = require('./middlewares/auth-delete');
+const { readFile, writeFile } = require('./utils/files');
+
+// const booksDB = readFile();
+writeFile({
+  name: 'kikoo',
+  json: false,
+});
+
+// console.log(booksDB);
+
 const app = express();
 
 app.use(loggerRequest);
